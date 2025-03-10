@@ -1,0 +1,17 @@
+{
+    "name": "screenmirror-websocket",
+    "version": "1.0.0",
+    "description": "WebSocket Server for Screen Mirroring",
+    "main": "websocket-server.js",
+    "scripts": {
+        "start": "node websocket-server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "ws": "^8.13.0"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
